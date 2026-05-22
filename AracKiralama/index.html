@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriveFleet — Araç Kiralama Otomasyonu</title>
+  <meta name="description" content="Kurumsal araç kiralama otomasyon sistemi. Müşteri, personel ve yönetici paneli ile filo ve rezervasyon yönetimi."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/professional.css"/>
+</head>
+<body>
+  <div class="app" id="app">
+    <div style="display:flex;align-items:center;justify-content:center;height:100vh;flex-direction:column;gap:16px;">
+      <div class="loader-spinner"></div>
+      <div style="font-size:18px;font-weight:700;color:#0f2744;">DriveFleet yükleniyor...</div>
+    </div>
+  </div>
+
+  <!-- VERİTABANI -->
+  <script src="js/data.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/vehicle-catalog.js"></script>
+  <!-- UYGULAMA ÇEKİRDEĞİ -->
+  <script src="js/app.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/images.js"></script>
+  <!-- SAYFALAR -->
+  <script src="js/pages_auth.js"></script>
+  <script src="js/pages_customer.js"></script>
+  <script src="js/pages_employee.js"></script>
+  <script src="js/pages_admin.js"></script>
+  <!-- ROUTER -->
+  <script src="js/routes.js"></script>
+</body>
+</html>
